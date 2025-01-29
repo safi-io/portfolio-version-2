@@ -60,6 +60,7 @@ export default function Technologies() {
           </SwiperSlide>
         ))}
       </Swiper>
+      <div className="mb-20"></div>
     </section>
   );
 }

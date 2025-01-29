@@ -1,30 +1,23 @@
-const experinceDetails = [
+const volunteeringDetails = [
   {
-    mainHeading: "Frontend Developer",
+    mainHeading: "Campus Director",
+    institute: "Zindigi Prize(JS Bank)",
+    location: "Sahiwal",
+    additionalInfo: "On-Site",
+    date: "Jan 2025 - Present",
+  },
+  {
+    mainHeading: "Full-stack Developer",
     institute: "Computer Science Society",
     location: "COMSATS Sahiwal",
     additionalInfo: "On-site",
     date: "Nov 2023 - Present",
-  },
-  {
-    mainHeading: "C++ Developer",
-    institute: "CodeAlpha",
-    location: "India",
-    additionalInfo: "Remote Internship",
-    date: "May 2024 - Jun 2024",
-  },
-  {
-    mainHeading: "Javascript Developer",
-    institute: "CodSoft",
-    location: "Kolkata, West Bengal, India",
-    additionalInfo: "Remote Internship",
-    date: "Nov 2023 - Dec 2023",
-  },
+  }
 ];
 
 const educationDetails = [
   {
-    mainHeading: "Bachelors in Computer Science",
+    mainHeading: "Bachelors in Computer Science (4th Semester)",
     institute: "COMSATS University Islamabad",
     location: "Sahiwal",
     additionalInfo: "3.95 CGPA",
@@ -39,4 +32,4 @@ const educationDetails = [
   },
 ];
 
-export {educationDetails, experinceDetails};
+export {educationDetails, volunteeringDetails};

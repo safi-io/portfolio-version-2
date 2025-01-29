@@ -1,6 +1,6 @@
 import React from "react";
 import DetailBar from "./DetailBar";
-import { educationDetails, experinceDetails } from "../../utils/aboutDetails";
+import { educationDetails, volunteeringDetails } from "../../utils/aboutDetails";
 import { motion } from "framer-motion";
 
 export default function About() {
@@ -16,11 +16,7 @@ export default function About() {
         About Me
       </motion.h1>
       <p className="mt-5 w-full lg:max-w-[70%] text-[#c3c0c0]">
-        I am a passionate computer science student with a strong background in
-        frontend development. I have successfully built and maintained several
-        websites, increasing engagement rates. My goal is to become technology
-        independent, with the ability to tackle challenges across various
-        domains in the tech industry.
+      I am a second-year CS undergraduate student based in Pakistan. Currently, I am focused on sharpening my core skills in computing and programming. My ultimate goal is to become a technology agnostic software engineer.
       </p>
 
       {/* Education Session Starts */}
@@ -45,7 +41,7 @@ export default function About() {
         />
       ))}
 
-      {/* Experince Section */}
+      {/* Volunteering Section */}
 
       <motion.h1
         className="mt-7 lg:text-5xl text-2xl font-medium"
@@ -53,17 +49,17 @@ export default function About() {
         animate={{ x: 0, opacity: "1" }}
         transition={{ duration: 2, type: "spring" }}
       >
-        Experince
+        Volunteering
       </motion.h1>
 
-      {experinceDetails.map((experince, index) => (
+      {volunteeringDetails.map((volunteer, index) => (
         <DetailBar
           key={index}
-          mainHeading={experince.mainHeading}
-          institute={experince.institute}
-          location={experince.location}
-          additionalInfo={experince.additionalInfo}
-          date={experince.date}
+          mainHeading={volunteer.mainHeading}
+          institute={volunteer.institute}
+          location={volunteer.location}
+          additionalInfo={volunteer.additionalInfo}
+          date={volunteer.date}
         />
       ))}
 

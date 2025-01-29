@@ -40,3 +40,12 @@ body::-webkit-scrollbar-thumb {
   background-color: rgb(40, 56, 91);
   
 }
+
+.scrollbar-custom::-webkit-scrollbar {
+  height: 0.5em;
+}
+
+.scrollbar-custom::-webkit-scrollbar-thumb {
+  background-color: rgb(40, 56, 91);
+  border-radius: 10px;
+}

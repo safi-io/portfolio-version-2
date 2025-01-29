@@ -27,8 +27,7 @@ export default function Home() {
 
         <div className="flex items-center mb-5 text-center max-w-[90%] font-bold">
           <span>
-            Skilled Full-Stack Developer | Crafting beautiful, user-centric
-            experiences. Let's build something incredible! ✨
+          Zindigi Prize Campus Director | CS COMSATS'27 | DSA Practitioner | MERN Stack | Linux | Git | Open Source Enthusiast ✨
           </span>
         </div>
 
