@@ -27,7 +27,7 @@ export default function Home() {
 
         <div className="flex items-center mb-5 text-center max-w-[90%] font-bold">
           <span>
-          Zindigi Prize Campus Director | CS COMSATS'27 | DSA Practitioner | MERN Stack | Linux | Git | Open Source Enthusiast ✨
+          Campus Ambassador @ Devsinc | CS '27 COMSATS | DSA Practitioner | MERN | Linux | GIT
           </span>
         </div>
 

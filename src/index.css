@@ -11,8 +11,13 @@
   @apply bg-clip-text bg-gradient text-transparent;
 }
 
+* {
+  cursor: none !important;
+}
+
 body {
   background-color: black;
+  cursor: none;
 }
 
 h1 {

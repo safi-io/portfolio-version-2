@@ -5,6 +5,8 @@ import { IoLogoLinkedin } from "react-icons/io5";
 import { SiLeetcode } from "react-icons/si";
 import { HiBars3BottomRight } from "react-icons/hi2";
 import { FaWhatsapp } from "react-icons/fa";
+import { FaHashnode } from "react-icons/fa6";
+import { FaXTwitter } from "react-icons/fa6";
 
 import { Link } from "react-router-dom";
 
@@ -85,6 +87,18 @@ export default function Navbar() {
               </li>
             </a>
 
+            <a href="https://hashnode.com/@safi-io" target="_blank">
+              <li className="hover:text-gray-200 hover:cursor-pointer hover:scale-110 hover:transition-transform duration-1000">
+              <FaHashnode />
+              </li>
+            </a>
+
+            <a href="https://x.com/ranasafikhan" target="_blank">
+              <li className="hover:text-gray-200 hover:cursor-pointer hover:scale-110 hover:transition-transform duration-1000">
+              <FaXTwitter />
+              </li>
+            </a>
+
             <a href="https://wa.me/+923287919711" target="_blank">
               <li className="hover:text-gray-200 hover:cursor-pointer hover:scale-110 hover:transition-transform duration-1000">
                 <FaWhatsapp />
@@ -158,6 +172,16 @@ export default function Navbar() {
                   <SiLeetcode />
                 </li>
               </a>
+              <a href="https://hashnode.com/@safi-io" target="_blank">
+              <li className="hover:text-gray-200 hover:cursor-pointer hover:scale-110 hover:transition-transform duration-1000">
+              <FaHashnode />
+              </li>
+            </a>
+            <a href="https://x.com/ranasafikhan" target="_blank">
+              <li className="hover:text-gray-200 hover:cursor-pointer hover:scale-110 hover:transition-transform duration-1000">
+              <FaXTwitter />
+              </li>
+            </a>
               <a href="https://wa.me/+923287919711" target="_blank">
                 <li className="hover:text-gray-200 hover:cursor-pointer hover:scale-110 hover:transition-transform duration-1000">
                 <FaWhatsapp />

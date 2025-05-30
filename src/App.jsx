@@ -4,7 +4,7 @@ import { AnimatedBackground } from "animated-backgrounds";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import { Outlet } from "react-router-dom";
-
+import CustomCursor from "./components/CustomCursor";
 
 export default function App() {
   const [loading, setLoading] = useState(false);
@@ -17,12 +17,13 @@ export default function App() {
     <>
       {loading ? (
         <div>
+          <CustomCursor />
           <AnimatedBackground
-            animationName="geometricShapes"
+            animationName="auroraBorealis"
             style={{ opacity: 0.3 }}
           />
           <Navbar />
-          <Outlet/>
+          <Outlet />
           <Footer />
         </div>
       ) : (

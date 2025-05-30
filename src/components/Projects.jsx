@@ -27,7 +27,7 @@ export default function Projects() {
             whileHover={{ scale: 1.05 }}
           >
             {/* Image Section */}
-            <div className="bg-red-500 overflow-hidden">
+            <div className="overflow-hidden">
               <img
                 src={project.url}
                 alt="projectImages"
