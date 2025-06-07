@@ -61,6 +61,7 @@ export default function About() {
           date={volunteer.date}
         />
       ))}
+      <div className="mb-20"></div>
     </section>
   );
 }
