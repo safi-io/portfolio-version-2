@@ -1,10 +1,10 @@
 import React from "react";
 import profile_picture from "../assets/profile_picture.jpg";
-import Button from '@mui/material/Button';
+import Button from "@mui/material/Button";
 import CloudDownloadIcon from "@mui/icons-material/CloudDownload";
 import ReactCountryFlag from "react-country-flag";
 import { motion } from "framer-motion";
-import resume from '../M Safiullah Khan.pdf'
+import resume from "../M Safiullah Khan.pdf";
 
 export default function Home() {
   return (
@@ -27,15 +27,19 @@ export default function Home() {
 
         <div className="flex items-center mb-5 text-center max-w-[90%] font-bold">
           <span>
-          Campus Ambassador @ Devsinc | CS '27 COMSATS | DSA Practitioner | MERN | Linux | GIT
+            CS '27 COMSATS | Strong Foundation in Data Structures & Algorithms,
+            Database Systems, Object-Oriented Programming & Linux | Java | MERN
+            Stack | Git
           </span>
         </div>
 
         <div className="flex items-center gap-10 flex-row-reverse">
           <div>
-            <a href={resume} download><Button variant="contained" startIcon={<CloudDownloadIcon />} >
-              Download CV
-            </Button></a>
+            <a href={resume} download>
+              <Button variant="contained" startIcon={<CloudDownloadIcon />}>
+                Download CV
+              </Button>
+            </a>
           </div>
 
           <div>
@@ -64,7 +68,6 @@ export default function Home() {
           className="rounded-full hover:scale-110 scale-100 duration-700 lg:w-[400px] w-[50vh]"
         />
       </motion.div>
-      
     </section>
   );
 }

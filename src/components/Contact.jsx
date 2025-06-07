@@ -3,20 +3,21 @@ import Button from "@mui/material/Button";
 import { motion } from "framer-motion";
 
 export default function Contact() {
-
-  const handleClick =() => {
-    alert("Backend Integeration Soon, You can mail at m.safi.ullah@outlook.com");
-  }
+  const handleClick = () => {
+    alert(
+      "Backend Integeration Soon, You can mail at m.safi.ullah@outlook.com"
+    );
+  };
 
   return (
     <section className="maxWidth text-white px-5">
       <motion.h1
-        className="mt-20 lg:text-5xl text-2xl font-medium mb-10"
-        initial={{ x: "-7rem", opacity: "0.1" }}
-        animate={{ x: 0, opacity: "1" }}
-        transition={{ duration: 2, type: "spring" }}
+        className="lg:text-5xl text-2xl font-medium mb-10"
+        initial={{ y: -50, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ duration: 1, type: "spring", stiffness: 100 }}
       >
-        Contact Details
+        Connect with Me
       </motion.h1>
 
       <div className="flex flex-col lg:flex-row items-center justify-between mb-20">
@@ -74,7 +75,9 @@ export default function Contact() {
             ></textarea>
           </div>
 
-          <Button variant="contained" onClick={handleClick}>Send Message</Button>
+          <Button variant="contained" onClick={handleClick}>
+            Send Message
+          </Button>
         </form>
 
         <div className="mt-10 lg:mt-0">

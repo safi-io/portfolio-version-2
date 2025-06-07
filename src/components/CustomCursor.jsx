@@ -18,8 +18,8 @@ export default function CustomCursor() {
     };
 
     const animate = () => {
-      currentX = lerp(currentX, mouseX, 0.1);
-      currentY = lerp(currentY, mouseY, 0.1);
+      currentX = lerp(currentX, mouseX, 0.4);
+      currentY = lerp(currentY, mouseY, 0.4);
 
       if (cursorRef.current && dotRef.current) {
         cursorRef.current.style.transform = `translate3d(${currentX}px, ${currentY}px, 0)`;

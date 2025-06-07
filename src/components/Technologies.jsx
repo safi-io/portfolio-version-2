@@ -10,10 +10,10 @@ export default function Technologies() {
     <section className="maxWidth text-white px-5 overflow-hidden relative">
       <div>
         <motion.h1
-          className="mt-20 lg:text-5xl text-2xl font-medium"
-          initial={{ x: "-7rem", opacity: "0.1" }}
-          animate={{ x: 0, opacity: "1" }}
-          transition={{ duration: 2, type: "spring" }}
+          className="lg:text-5xl text-2xl font-medium"
+          initial={{ y: -50, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ duration: 1, type: "spring", stiffness: 100 }}
         >
           Tech Stack
         </motion.h1>
@@ -39,12 +39,14 @@ export default function Technologies() {
       {/* Tools Section */}
 
       <div>
-        <motion.h1 className="mt-8 lg:text-5xl text-2xl font-medium"
-        
-          initial={{ x: "-7rem", opacity: "0.1" }}
-          animate={{ x: 0, opacity: "1" }}
-          transition={{ duration: 2, type: "spring" }}
-        >Tools</motion.h1>
+        <motion.h1
+          className="mt-8 lg:text-5xl text-2xl font-medium"
+          initial={{ y: -50, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ duration: 1, type: "spring", stiffness: 100 }}
+        >
+          Tools
+        </motion.h1>
       </div>
 
       <Swiper {...sliderSettings} className="mt-10  overflow-visible">

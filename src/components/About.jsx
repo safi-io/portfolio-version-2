@@ -8,24 +8,24 @@ export default function About() {
     <section className="maxWidth text-white px-5">
       {/* About Section */}
       <motion.h1
-        className="mt-20 lg:text-5xl text-2xl font-medium"
-        initial={{ x: "-7rem", opacity: "0.1" }}
-        animate={{ x: 0, opacity: "1" }}
-        transition={{ duration: 2, type: "spring" }}
+        className="lg:text-5xl text-2xl font-medium"
+        initial={{ y: -50, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ duration: 1, type: "spring", stiffness: 100 }}
       >
         About Me
       </motion.h1>
       <p className="mt-5 w-full lg:max-w-[70%] text-[#c3c0c0]">
-      I am a second-year CS undergraduate student based in Pakistan. Currently, I am focused on sharpening my core skills in computing and programming. My ultimate goal is to become a technology agnostic software engineer.
+      I am a third-year CS undergraduate student based in Pakistan. Currently, I am focused on sharpening my core skills in computing and programming. My ultimate goal is to become a technology agnostic software engineer.
       </p>
 
       {/* Education Session Starts */}
 
       <motion.h1
         className="mt-7 lg:text-5xl text-2xl font-medium"
-        initial={{ x: "-7rem", opacity: "0.1" }}
-        animate={{ x: 0, opacity: "1" }}
-        transition={{ duration: 2, type: "spring" }}
+        initial={{ y: -50, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ duration: 1, type: "spring", stiffness: 100 }}
       >
         Education
       </motion.h1>
@@ -35,7 +35,6 @@ export default function About() {
           key={index}
           mainHeading={education.mainHeading}
           institute={education.institute}
-          location={education.location}
           additionalInfo={education.additionalInfo}
           date={education.date}
         />
@@ -45,9 +44,9 @@ export default function About() {
 
       <motion.h1
         className="mt-7 lg:text-5xl text-2xl font-medium"
-        initial={{ x: "-7rem", opacity: "0.1" }}
-        animate={{ x: 0, opacity: "1" }}
-        transition={{ duration: 2, type: "spring" }}
+        initial={{ y: -50, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ duration: 1, type: "spring", stiffness: 100 }}
       >
         Volunteering
       </motion.h1>
