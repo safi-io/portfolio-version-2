@@ -207,6 +207,11 @@ export default function Navbar() {
                   Creations
                 </li>
               </Link>
+              <Link to="/Certifications">
+                <li className="hover:text-gray-200 cursor-pointer hover:scale-110 transition-transform duration-300">
+                  Certifications
+                </li>
+              </Link>
               <Link to="/Contact">
                 <li className="hover:text-gray-200 cursor-pointer hover:scale-110 transition-transform duration-300 whitespace-nowrap">
                   Connect
