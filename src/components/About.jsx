@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 export default function About() {
   return (
-    <section className="maxWidth text-white px-5">
+    <section className="maxWidth text-white px-5 pt-16 lg:pt-0">
       {/* About Section */}
       <motion.h1
         className="lg:text-5xl text-2xl font-medium"
@@ -61,8 +61,6 @@ export default function About() {
           date={volunteer.date}
         />
       ))}
-
-      <div className="mb-20"></div>
     </section>
   );
 }

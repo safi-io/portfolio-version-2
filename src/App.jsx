@@ -33,7 +33,6 @@ export default function App() {
             style={{ opacity: 0.3 }}
           />
           <Navbar />
-          {isMobile && <div className="mb-5"></div>}
           <Outlet />
           <Footer />
         </div>

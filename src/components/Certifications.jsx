@@ -10,7 +10,7 @@ export default function Certifications() {
   };
 
   return (
-    <section className="maxWidth px-5">
+    <section className="maxWidth px-5 pt-16 lg:pt-0">
       {/* Section Title */}
       <motion.h1
         className="lg:text-5xl text-2xl font-medium mb-10 text-white"

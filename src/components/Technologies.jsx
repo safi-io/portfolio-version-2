@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 
 export default function Technologies() {
   return (
-    <section className="maxWidth text-white px-5 overflow-hidden relative">
+    <section className="maxWidth text-white px-5 overflow-hidden relative pt-16 lg:pt-0">
       <div>
         <motion.h1
           className="lg:text-5xl text-2xl font-medium"

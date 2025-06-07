@@ -8,7 +8,7 @@ import resume from "../M Safiullah Khan.pdf";
 
 export default function Home() {
   return (
-    <section className="maxWidth flex items-center justify-around lg:h-[85vh] h-full text-white flex-col-reverse lg:flex-row flex-wrap ">
+    <section className="maxWidth flex items-center justify-around lg:h-[85vh] h-full text-white flex-col-reverse lg:flex-row flex-wrap pt-16 lg:pt-0">
       <motion.div
         className="flex flex-col items-center lg:w-[50%] w-full"
         initial={{ x: "-7rem", opacity: "0.1" }}
@@ -25,8 +25,8 @@ export default function Home() {
           <div className="absolute -top-2 -left-5 bg-red-500 rounded-full lg:w-10 lg:h-10 h-8 w-8 -z-10"></div>
         </div>
 
-        <div className="flex items-center mb-5 text-center max-w-[90%] font-bold">
-          <span>
+        <div className="flex items-center mb-5 text-center max-w-[90%] font-medium lg:font-bold mt-5">
+          <span className="text-sm sm:text-base">
             CS '27 COMSATS | Strong Foundation in Data Structures & Algorithms,
             Database Systems, Object-Oriented Programming & Linux | Java | MERN
             Stack | Git
