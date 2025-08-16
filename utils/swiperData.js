@@ -1,6 +1,7 @@
 const technologyLogos = [
-  { url: "./java.png" },
+  { url: "./python.png" },
   { url: "./js.png" },
+  { url: "./java.png" },
   { url: "./node.png" },
   { url: "./react.png" },
   { url: "./express.png" },

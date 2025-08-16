@@ -1,3 +1,12 @@
+const experinceDetails = [
+  {
+    mainHeading: "Software Engineering Intern",
+    institute: "Fantech Labs",
+    additionalInfo: "On-Site",
+    date: "July 2025 - Present",
+  },
+];
+
 const volunteeringDetails = [
   {
     mainHeading: "Campus Amabassador",
@@ -14,7 +23,7 @@ const volunteeringDetails = [
     date: "Jan 2025 - Present",
   },
   {
-    mainHeading: "Full-stack Developer",
+    mainHeading: "Full-Stack Developer | Tech Lead & Workshop Speaker",
     institute: "Computer Science Society",
     location: "COMSATS Sahiwal",
     additionalInfo: "On-site",
@@ -37,4 +46,4 @@ const educationDetails = [
   },
 ];
 
-export { educationDetails, volunteeringDetails };
+export { educationDetails, volunteeringDetails, experinceDetails };

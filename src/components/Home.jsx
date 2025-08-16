@@ -27,9 +27,8 @@ export default function Home() {
 
         <div className="flex items-center mb-5 text-center max-w-[90%] font-medium lg:font-bold mt-5">
           <span className="text-sm sm:text-base">
-            CS '27 COMSATS | Strong Foundation in Data Structures & Algorithms,
-            Database Systems, Object-Oriented Programming & Linux | Java | MERN
-            Stack | Git
+            Software Engineer @ Fantech Labs | Campus Ambassador @ Devsinc | CS
+            '27 @ COMSATS
           </span>
         </div>
 
