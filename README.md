@@ -1,9 +1,1 @@
-# Overview
-I designed and developed my Second Portfolio.
-# Technologies
-- HTML5
-- CSS3
-- TailwindCSS
-- ReactJS
-# You can view at live at
-- https://safikhan.me
+A simple web-page for a glimpse of work I did in past few years.
