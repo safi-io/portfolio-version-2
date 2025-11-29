@@ -20,6 +20,29 @@ export default function Header() {
         {headerData.subtitle}
       </p>
 
+      {/* Subtle Intro Message */}
+      <p className="text-xs sm:text-sm text-[#6b7280] mb-4 italic">
+        Just a glimpse — explore{" "}
+        <a
+          href="https://www.linkedin.com/in/safi-io"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-[#9ca3af] hover:text-[#4ade80] transition-colors"
+        >
+          LinkedIn
+        </a>
+        {" "}or{" "}
+        <a
+          href="https://github.com/safi-io"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-[#9ca3af] hover:text-[#4ade80] transition-colors"
+        >
+          GitHub
+        </a>
+        {" "}for the full story
+      </p>
+
       <div className="flex flex-wrap gap-3 md:gap-4 items-center text-xs sm:text-sm">
         <div className="flex items-center gap-2 bg-[#1a1a1a] px-2.5 md:px-3 py-1.5 rounded border border-[#2a2a2a]">
           <span className="text-[#6b7280]">📍</span>

@@ -1,6 +1,7 @@
 import React from "react";
 import { FaGithub, FaWhatsapp, FaHashnode, FaXTwitter } from "react-icons/fa6";
 import { IoLogoLinkedin } from "react-icons/io5";
+import { IoMail } from "react-icons/io5";
 import { SiLeetcode } from "react-icons/si";
 import { socialLinksData } from "../utils/socialLinksData";
 
@@ -13,6 +14,7 @@ export default function MobileSocialLinks() {
       Hashnode: FaHashnode,
       Twitter: FaXTwitter,
       WhatsApp: FaWhatsapp,
+      Email: IoMail,
     };
     return icons[name];
   };

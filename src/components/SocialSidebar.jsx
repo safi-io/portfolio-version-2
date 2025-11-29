@@ -1,5 +1,6 @@
 import React from "react";
 import { FaGithub, FaWhatsapp, FaHashnode, FaXTwitter } from "react-icons/fa6";
+import { IoMail } from "react-icons/io5";
 import { IoLogoLinkedin } from "react-icons/io5";
 import { SiLeetcode } from "react-icons/si";
 import { socialLinksData } from "../utils/socialLinksData";
@@ -13,6 +14,7 @@ export default function SocialSidebar() {
       Hashnode: FaHashnode,
       Twitter: FaXTwitter,
       WhatsApp: FaWhatsapp,
+      Email: IoMail,
     };
     return icons[name];
   };
@@ -29,7 +31,9 @@ export default function SocialSidebar() {
             rel="noreferrer"
             className="text-[#6b7280] hover:text-[#0077b5] transition-colors text-xl lg:text-2xl"
             style={{ "--hover-color": social.hoverColor }}
-            onMouseEnter={(e) => (e.currentTarget.style.color = social.hoverColor)}
+            onMouseEnter={(e) =>
+              (e.currentTarget.style.color = social.hoverColor)
+            }
             onMouseLeave={(e) => (e.currentTarget.style.color = "#6b7280")}
             title={social.name}
           >

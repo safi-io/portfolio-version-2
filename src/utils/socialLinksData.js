@@ -13,15 +13,15 @@ export const socialLinksData = [
   },
   {
     id: 3,
-    name: "LeetCode",
-    url: "https://leetcode.com/u/safi-io/",
-    hoverColor: "#ffa116",
-  },
-  {
-    id: 4,
     name: "Hashnode",
     url: "https://hashnode.com/@safi-io",
     hoverColor: "#2962ff",
+  },
+  {
+    id: 4,
+    name: "LeetCode",
+    url: "https://leetcode.com/u/safi-io/",
+    hoverColor: "#ffa116",
   },
   {
     id: 5,
@@ -34,5 +34,11 @@ export const socialLinksData = [
     name: "WhatsApp",
     url: "https://wa.me/+923287919711",
     hoverColor: "#25d366",
+  },
+  {
+    id: 7,
+    name: "Email",
+    url: "mailto:m.safi.ullah@outlook.com",
+    hoverColor: "#d14836",
   },
 ];

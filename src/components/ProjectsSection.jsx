@@ -17,9 +17,7 @@ export default function ProjectsSection() {
               <h3 className="text-base md:text-lg font-semibold text-white">
                 {project.name}
               </h3>
-              <span className="text-xs text-[#6b7280]">
-                {project.duration}
-              </span>
+              <span className="text-xs text-[#6b7280]">{project.duration}</span>
             </div>
             <p className="text-xs sm:text-sm text-[#9ca3af] mb-3">
               {project.description}

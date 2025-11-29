@@ -1,20 +1,18 @@
 export const profileData = {
-  name: "Safiullah Khan",
-  role: "Software Engineer",
+  name: "Muhammad Safiullah Khan",
+  role: "Software Engineer | Backend Focused",
   location: "Pakistan",
-  education: "Bacherlors in Computer Science",
+  education: "Bachelor's in Computer Science",
+  leetcodeCount: "250+",
+  technicalarticles: "5+",
   focus: ["Scalable Systems", "Data Pipelines"],
-  coreSkills: ["DSA", "OOP", "Databases", "Networks", "OS"],
-  certifications: ["IBM", "Google", "Meta", "Cisco", "Harvard"],
   workshopsDelivered: "10+",
   studentsMentored: "100+",
 };
 
 export const headerData = {
   terminalCommand: "cat ~/about.txt",
-  title: "M. Safiullah Khan",
-  subtitle: "Software Engineer",
-  description:
-    "Building scalable distributed systems and data pipelines. Passionate about clean architecture, performance optimization, and mentoring aspiring developers.",
+  title: "SAFI",
+  subtitle: "Software Engineer ~ Python",
   resumePath: "../M Safiullah Khan.pdf",
 };

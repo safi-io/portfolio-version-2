@@ -1,7 +1,7 @@
 export const techStackData = {
-  languages: ["Python", "JavaScript", "Java"],
-  backend: ["Node.js", "Express"],
-  frontend: ["React", "Redux", "Tailwind CSS"],
-  databases: ["MySQL", "MongoDB"],
-  tools: ["Git", "GitHub", "VS Code", "IntelliJ", "Figma"],
+  languages: ["Python", "JavaScript"],
+  backend: ["FastAPI", "Flask", "Node.js / Express"],
+  frontend: ["React", "Tailwind CSS"],
+  databases: ["PostgreSQL", "MySQL", "MongoDB", "Redis"],
+  tools: ["Selenium", "Celery", "Docker", "Nginx", "Git", "GitHub", ],
 };

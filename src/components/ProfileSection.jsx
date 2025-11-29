@@ -57,7 +57,9 @@ export default function ProfileSection() {
                 <span className="text-[#6b7280]">self.</span>
                 <span className="text-[#a78bfa]">education</span>
                 <span className="text-[#6b7280]"> = </span>
-                <span className="text-[#fbbf24]">"{profileData.education}"</span>
+                <span className="text-[#fbbf24]">
+                  "{profileData.education}"
+                </span>
               </div>
               <div>
                 <span className="text-[#6b7280]">self.</span>
@@ -75,43 +77,36 @@ export default function ProfileSection() {
               </div>
               <div>
                 <span className="text-[#6b7280]">self.</span>
-                <span className="text-[#a78bfa]">core_skills</span>
-                <span className="text-[#6b7280]"> = [</span>
-                {profileData.coreSkills.map((skill, index) => (
-                  <React.Fragment key={index}>
-                    <span className="text-[#fbbf24]">"{skill}"</span>
-                    {index < profileData.coreSkills.length - 1 && (
-                      <span className="text-[#6b7280]">, </span>
-                    )}
-                  </React.Fragment>
-                ))}
-                <span className="text-[#6b7280]">]</span>
-              </div>
-              <div>
-                <span className="text-[#6b7280]">self.</span>
-                <span className="text-[#a78bfa]">certifications</span>
-                <span className="text-[#6b7280]"> = [</span>
-                {profileData.certifications.map((cert, index) => (
-                  <React.Fragment key={index}>
-                    <span className="text-[#fbbf24]">"{cert}"</span>
-                    {index < profileData.certifications.length - 1 && (
-                      <span className="text-[#6b7280]">, </span>
-                    )}
-                  </React.Fragment>
-                ))}
-                <span className="text-[#6b7280]">]</span>
-              </div>
-              <div>
-                <span className="text-[#6b7280]">self.</span>
-                <span className="text-[#a78bfa]">workshops_delivered</span>
+                <span className="text-[#a78bfa]">leetcode_count</span>
                 <span className="text-[#6b7280]"> = </span>
-                <span className="text-[#fbbf24]">"{profileData.workshopsDelivered}"</span>
+                <span className="text-[#fbbf24]">
+                  "{profileData.leetcodeCount}"
+                </span>
               </div>
               <div>
                 <span className="text-[#6b7280]">self.</span>
                 <span className="text-[#a78bfa]">students_mentored</span>
                 <span className="text-[#6b7280]"> = </span>
-                <span className="text-[#fbbf24]">"{profileData.studentsMentored}"</span>
+                <span className="text-[#fbbf24]">
+                  "{profileData.studentsMentored}"
+                </span>
+              </div>
+
+              <div>
+                <span className="text-[#6b7280]">self.</span>
+                <span className="text-[#a78bfa]">workshops_delivered</span>
+                <span className="text-[#6b7280]"> = </span>
+                <span className="text-[#fbbf24]">
+                  "{profileData.workshopsDelivered}"
+                </span>
+              </div>
+              <div>
+                <span className="text-[#6b7280]">self.</span>
+                <span className="text-[#a78bfa]">technical_articles</span>
+                <span className="text-[#6b7280]"> = </span>
+                <span className="text-[#fbbf24]">
+                  "{profileData.technicalarticles}"
+                </span>
               </div>
             </div>
           </div>
